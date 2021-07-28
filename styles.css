@@ -59,6 +59,7 @@ header nav button {
     font-family: var(--poppins);
     font-weight: var(--poppins-weight);
     font-size: 0.82rem;
+    outline: none;
     cursor: pointer;
     transition: all 300ms ease;
 }
@@ -108,6 +109,7 @@ header nav button:hover {
     border: none;
     padding: 1rem;
     border-radius: 32px;
+    outline: none;
     cursor: pointer;
     transition: all 300ms ease;
 }
@@ -173,4 +175,137 @@ main section .section-image img {
 
 #your-users {
     margin-bottom: 348px;
+}
+
+#ready-to-build {
+    position: absolute;
+    margin-top: 1518px;
+    width: 55.6%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 54px 38px 54px 38px;
+    border-radius: 18px;
+    box-shadow: #ccc 0px -2px 6px 0px, #ccc 0px -2px 1px 0px;
+}
+
+#ready-to-build h2 {
+    font-size: 1.8rem;
+    margin-bottom: 42px;
+    color: var(--very-dark-cyan);
+    text-align: center;
+}
+
+#ready-to-build button {
+    font-family: var(--open);
+    font-weight: var(--bold);
+    font-size: 1.1rem;
+    width: 400px;
+    background-color: var(--pink);
+    color: white;
+    border: none;
+    padding: 1.44rem;
+    border-radius: 46px;
+    box-shadow: 1px 2px 6px #ccc;
+    outline: none;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+#ready-to-build button:hover {
+    opacity: 0.6;
+}
+
+footer {
+    background-color: var(--very-dark-cyan);
+    padding: 194px 80px 62px 80px;
+    display: flex;
+    flex-direction: column;
+    color: var(--very-pale-cyan);
+}
+
+#footer-logo {
+    margin-bottom: 2rem;
+}
+
+#footer-logo img {
+    filter: brightness(0) invert(1);
+}
+
+#footer-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#contact-info {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 28%;
+}
+
+#contact-info div {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+#contact-info div span {
+    font-size: 0.9rem;
+}
+
+#contact-info img {
+    margin-right: 2rem;
+}
+
+#footer-contact ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-contact ul li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+#footer-contact ul li a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: var(--regular);
+    transition: all 300ms ease;
+    color: white;
+}
+
+
+#footer-contact ul li a:hover {
+    text-decoration: underline;
+}
+
+#social-media button {
+    background: transparent;
+    color: white;
+    font-size: 0.8rem;
+    border: 1px solid white;
+    padding: 0.30rem;
+    border-radius: 50%;
+    width: 30px;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+#social-media button:hover {
+    color: var(--pink);
+    border: 1px solid var(--pink);
+}
+
+#social-media button:last-child {
+    margin-right: 0;
+}
+
+#social-media p {
+    font-size: 0.72rem;
+    margin-top: 178px;
 }
