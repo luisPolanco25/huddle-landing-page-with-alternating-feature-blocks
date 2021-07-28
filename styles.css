@@ -179,7 +179,9 @@ main section .section-image img {
 
 #ready-to-build {
     position: absolute;
-    margin-top: 1518px;
+    margin-top: -174px;
+    left: 50%;
+    transform: translate(-50%);
     width: 55.6%;
     background-color: white;
     display: flex;
@@ -308,4 +310,272 @@ footer {
 #social-media p {
     font-size: 0.72rem;
     margin-top: 178px;
+}
+
+@media (max-width: 1220px) {
+    #header-main #header-content h1 {
+        width: 100%;
+    }
+    
+    #header-main #header-content p {
+        width: 100%;
+    }
+    
+    #header-main #header-content button {
+        width: 278px;
+    }
+    
+    #header-main #header-image img {
+        width: 480px;
+    }
+
+    #flowing-conversations .section-text {
+        margin-left: 64px;
+    }
+
+    #ready-to-build {
+        margin-top: -166px;
+        width: 614px;
+    }
+    
+}
+
+@media (max-width: 980px) {
+
+    #header-main #header-content {
+        margin-right: 60px;
+    }
+
+    #header-main #header-content h1 {
+        font-size: 1.6rem;
+    }
+
+    #header-main #header-content p {
+        font-size: 0.9rem;
+    }
+    
+    #header-main #header-image img {
+        width: 100%;
+    }
+    
+    main section .section-text {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    main section .section-text h2 {
+        margin-bottom: 14px;
+    }
+
+    main section .section-image img {
+        width: 260px;
+    }
+
+    #flowing-conversations .section-image {
+        margin-left: 0;
+    }
+    
+    #ready-to-build h2 {
+        font-size: 1.4rem;
+    }
+
+    #footer-contact {
+        flex-direction: column;
+    }
+
+    #contact-info {
+        margin-bottom: 132px;
+    }
+
+    #social-media {
+        margin-top: 118px;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #social-media button {
+        padding: 0.32rem;
+        width: 30px;
+        margin-right: 0.6rem;
+    }
+
+    #social-media p {
+        font-size: 0.72rem;
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    header {
+        background: url('./images/bg-hero-mobile.svg') var(--very-pale-cyan);
+        padding: 56px 34px 42px 34px;
+        margin-bottom: 122px;
+    }
+
+    header #header-logo img {
+        width: 120px;
+    }
+
+    header nav button {
+        width: 100px;
+        padding: 0.34rem;
+        font-size: 0.62rem;
+    }
+
+    #header-main {
+        flex-direction: column;
+    }
+
+    #header-main #header-content {
+        align-items: center;
+        margin-right: 0;
+        margin-bottom: 112px;
+
+    }
+
+    #header-main #header-content h1 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    #header-main #header-content p {
+        text-align: center;
+    }
+
+    #header-main #header-content button {
+        font-size: 0.8rem;
+        width: 252px;
+        padding: 0.8rem;
+    }
+
+    main section {
+        width: 90%;
+        flex-direction: column;
+        padding: 48px 36px 48px 36px;
+    }
+
+    main section .section-text {
+        order: 2;
+    }
+
+    main section .section-image {
+        order: 1;
+        margin-bottom: 60px;
+    }
+
+    main section .section-text h2, 
+    main section .section-text p {
+        width: 100%;
+        text-align: center;
+    } 
+
+    main section .section-text h2 {
+        font-size: 1.2rem;
+    }
+
+    main section .section-text p {
+        font-size: 0.8rem;
+    }
+
+    #flowing-conversations .section-text {
+        margin-left: 0;
+    }
+
+    #your-users {
+        margin-bottom: 208px;
+    }
+
+    #ready-to-build {
+        margin-top: -108px;
+        width: 380px;
+        padding: 42px 10px 42px 10px;
+    }
+
+    #ready-to-build h2 {
+        font-size: 1.2rem;
+        margin-bottom: 24px;
+    }
+
+    #ready-to-build button {
+        font-size: 0.72rem;
+        width: 202px;
+        padding: 0.8rem;
+    }
+
+    footer {
+        padding: 164px 30px 42px 30px;
+    }
+
+    #footer-logo img {
+        width: 168px;
+    }
+    
+    #contact-info {
+        margin-bottom: 62px;
+    }
+
+    #contact-info div span {
+        font-size: 0.82rem;
+    }
+
+    #footer-contact ul li a {
+        font-size: 0.82rem;
+    }
+
+    #social-media {
+        margin-top: 48px;
+    }
+
+    #social-media p {
+        margin-top: 28px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    #ready-to-build {
+        margin-top: -108px;
+        width: 326px;
+    }
+
+    #ready-to-build h2 {
+        font-size: 0.92rem;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 350px) {
+    header nav {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 46px;
+    }
+
+    header #header-logo img {
+        width: 180px;
+    }
+
+    header nav button {
+        margin-top: 28px;
+        width: 180px;
+        padding: 0.64rem;
+        font-size: 0.72rem;
+    }
+
+    #ready-to-build {
+        margin-top: -106px;
+        width: 260px;
+    }
+
+    #ready-to-build h2 {
+        font-size: 0.80rem;
+        margin-bottom: 24px;
+    }
+
+    
 }
