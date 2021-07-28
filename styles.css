@@ -30,3 +30,147 @@ body {
     width: 100%;
     min-height: 100vh;
 }
+
+header {
+    background: url('./images/bg-hero-desktop.svg') var(--very-pale-cyan);
+    padding: 58px 80px 70px 80px;
+    margin-bottom: 160px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+header #header-logo img {
+    width: 200px;
+}
+
+header nav button {
+    color: var(--very-dark-cyan);
+    width: 200px;
+    padding: 0.74rem;
+    border: none;
+    border-radius: 32px;
+    box-shadow: 0px 3px 6px #ccc;
+    background-color: white;
+    font-family: var(--poppins);
+    font-weight: var(--poppins-weight);
+    font-size: 0.82rem;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+header nav button:hover {
+    color: rgb(92, 89, 89);
+    opacity: 0.8;
+}
+
+#header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-main #header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#header-main #header-content h1 {
+    font-family: var(--poppins);
+    font-weight: var(--poppins-weight);
+    color: var(--very-dark-cyan);
+    font-size: 2.24rem;    
+    width: 80%;
+    margin-bottom: 18px;
+}
+
+#header-main #header-content p {
+    width: 86%;
+    color: var(--very-dark-cyan);
+    font-weight: var(--regular);
+    margin-bottom: 33px;
+    line-height: 1.4;
+}
+
+#header-main #header-content button {
+    font-family: var(--open);
+    font-weight: var(--bold);
+    font-size: 0.8rem;
+    width: 278px;
+    background-color: var(--pink);
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 32px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+#header-main #header-content button:hover {
+    opacity: 0.6;
+}
+
+#header-main #header-image img {
+    width: 680px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section {
+    width: 86%;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 54px 38px 54px 38px;
+    border-radius: 18px;
+    box-shadow: #eee 0px 0px 8px 0px, #eee 0px 0px 4px 0px;
+}
+
+main section .section-text {
+    margin-left: 80px;
+}
+
+main section .section-text h2 {
+    color: var(--very-dark-cyan);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main section .section-text p {
+    color: var(--grayish-blue);
+    line-height: 1.6;
+    width: 74%;
+}
+
+main section .section-image img {
+    width: 408px;
+}
+
+#flowing-conversations .section-text {
+    order: 2;
+    margin-left: 164px;
+}
+
+#flowing-conversations .section-text p {
+    width: 100%;
+}
+
+#flowing-conversations .section-image {
+    margin-left: 80px;
+    order: 1;
+}
+
+#your-users {
+    margin-bottom: 348px;
+}
